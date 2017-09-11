@@ -1,6 +1,8 @@
 --this is using the same technique as the sample selector, 
 --taken from an example at developer.steinberg.help, but for setting combinations of parameters.
 
+--usage: connect the syncVDropdown parameter to a menu on a macropage.
+
 syncTimeTable = {
     { timeValue = "1/256", time = 9, triplets = 0 },
     { timeValue = "1/256T", time = 9, triplets = 1 },
